@@ -1,0 +1,167 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#logo {
+	width: 100%;
+	height: 40px;
+	background-color: #FFF95E;
+}
+
+#header {
+	width: 100%;
+	height:400px;
+	background: linear-gradient(rgba(120,120,120,0), rgba(120,120,120,0)), url("f1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 400px;
+}
+
+#welcome {
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+	color: #0B3617;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+#main {
+	width: 70%;
+    padding: 3%;
+
+}
+
+#cart {
+	width: 30%;
+	float: right;
+    padding-right: 20px;
+}
+
+#titlu-cos {
+    padding: 20px 20px 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid green;
+    margin-bottom: 20px;
+}
+
+#menu-search {
+	width:100%;
+	background-color: #0B3617;
+	position: relative;
+}
+ul {
+	width:70%;
+}
+
+#search-form {
+	width:26%;
+	position: absolute;
+	right:10px;
+	top:30px;
+
+}
+
+.search-group input{
+	color: 	#0B3617;;
+	width: 300px;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: none !important;
+}
+
+.product {
+	width: 30%;
+	float: left;
+	margin: 4px;
+    padding: 30px;
+}
+
+.product button {
+	float:right;
+}
+
+h5 {
+	margin: 4px;
+}
+
+#total{
+	float:right;
+}
+.afisare-total {
+    font-weight: bold;
+}
+
+.nav {
+	border: 0;
+	margin: 0;
+	background-color: #0B3617;
+	padding: 14px;
+}
+
+.nav-tabs a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 27px;
+	color: white;
+}
+
+.nav-tabs li a:hover {
+	background-color: transparent;
+	color: yellow;
+	border: 0;
+	border-radius: 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: yellow;
+    background-color: green;
+    border: 0;
+    border-radius: 0;
+}
+
+.add-button, .addbutton, .delbutton, .det-button, .detbutton {
+	background-color: #0B3617;
+	color: yellow;
+	font-weight: 800;
+    border: 0;
+    webkit-appearance: button-bevel;
+}
+.det-button, .detbutton {
+	margin-right: 10px;
+}
+#buy {
+	height: 40px;
+	width: 200px;
+	margin-top: 40px;
+	background-color: #0B3617;
+	color: yellow !important;
+	font-weight: 800;
+	border: 0;
+	webkit-appearance: button-bevel;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#ascuns{
+	display: none;
+}
+
+#cart-products td {
+	padding: 0 80px 10px 0;
+	text-align: left;
+}
+
+
+#cart-products {
+	margin: auto;
+	border-bottom: 2px solid green;
+	width: 100%;
+}
+
+img {
+	width: 220px;
+	height: 280px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Farmacia Acaa</title>
+    <link rel= "stylesheet" href="view/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="logo">
+    <img style="width: 310px; height: 200px;"src="view/logo.png">
+    <h3 id="welcome">Welcome <?php echo $realname; ?> ! </h3>
+</div>
+<div class="butoane">
+    <button class="filtreaza" id="active">Toate</button>
+    <button class="filtreaza">Medicamente</button>
+    <button class="filtreaza">Suplimente alimentare</button>
+    <button class="filtreaza">Frumusete si ingrijire</button>
+    <button class="filtreaza">Produse naturiste</button>
+</div>
+<table id="tabel">
+    <tr>
+        <th style="width: 10px">   </th>
+        <th>ID</th>
+        <th>Denumire</th>
+        <th>Stoc</th>
+        <th>Pret</th>
+        <th>Categorie</th>
+    </tr>
+</table>
+<div class="butoane">
+    <button id="reducere">Aplica reducere 10%</button>
+    <button id="crestere">Crestere pret <br>10%</button>
+    <button id="comanda">Comanda furnizor</button>
+</div>
+<script src="js/gestiune.js" ></script>
+</body>
+</html>

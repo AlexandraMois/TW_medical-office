@@ -1,0 +1,118 @@
+body {
+    background-color: #00371A;
+}
+
+#welcome {
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+    color:  white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+button, input[type="submit"] {
+    width: 200px;
+    background-color: transparent;
+    border:none;
+    background-color: #cff27d;
+    padding:10px;
+    font-family: Verana;
+    font-size: large;
+    color: #001e1e;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: yellow;
+}
+
+button:visited {
+    border: none;
+}
+button:focus {
+    outline: none;
+    background-color: yellow;
+}
+
+.butoane, table {
+    width:80%;
+    margin: auto;
+}
+
+.butoane {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    font-family: Verana;
+    font-size: large;
+    color: #001e1e;
+}
+
+td, th {
+    border-right: 1px solid #1c252b;
+}
+
+tr,td,th {
+    padding: 10px;
+
+}
+
+th {
+    background-color: #00cace;
+}
+
+table tr:nth-child(2n) {
+    background-color: #ededed;
+
+}
+
+table tr:nth-child(2n):hover {
+    background-color: #cff27d;
+
+}
+tr:hover{
+    background-color: #cff27d;
+}
+
+form {
+    color: white;
+    padding: 50px;
+    width:80%;
+    margin: auto;
+    font-family: Verana;
+    font-size: large;
+}
+
+input,textarea {
+    display: block;
+    margin-bottom: 20px;
+    width: 200px;
+    padding:10px;
+}
+
+textarea {
+    height: 100px;
+    overflow: auto;
+}
+select {
+    margin-bottom: 30px;
+    width: 220px;
+    padding:10px;
+}
+input[type="submit"] {
+    width: 222px;
+}
+
+input[name="gender"] {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
