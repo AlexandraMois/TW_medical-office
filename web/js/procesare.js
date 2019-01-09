@@ -1,6 +1,12 @@
 let specializari = {}
 const zile = ['duminica', 'luni', 'marti', 'miercuri', 'joi', 'vineri', 'sambata'];
 $.get("getData.php", procesareDate);
+$.get("istoricDoctori.php", function(data) {
+    console.log('istoricDoctori: ', data)
+})
+$.get("istoricPacienti.php", function(data) {
+    console.log('istoricPacienti: ', data)
+})
 
 function procesareDate(specializari) {
     Object.keys(specializari).forEach(function (key) {
